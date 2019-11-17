@@ -4,13 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'act-fluent-logger-rails/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "act-fluent-logger-rails"
+  gem.name          = "hubrise-act-fluent-logger-rails"
   gem.version       = ActFluentLoggerRails::VERSION
   gem.authors       = ["TAHARA Yoshinori"]
-  gem.email         = ["read.eval.print@gmail.com"]
   gem.description   = %q{Fluent logger}
   gem.summary       = %q{Fluent logger}
-  gem.homepage      = "https://github.com/actindi/act-fluent-logger-rails"
+  gem.homepage      = "https://github.com/HubRise/act-fluent-logger-rails"
   gem.license       = "MIT"
 
   gem.files         = `git ls-files`.split($/)
